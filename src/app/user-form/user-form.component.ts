@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 
+// @ts-ignore
 import users from '../../assets/users.json';
 import { User } from '../models/users.model';
 
