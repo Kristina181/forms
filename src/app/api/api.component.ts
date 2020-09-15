@@ -8,9 +8,9 @@ import { form } from '../../assets/userForm';
   styleUrls: ['./api.component.css']
 })
 export class ApiComponent implements OnInit {
-  formInfo: any;
+  formInfo: object[];
 
-  getData(): Promise<object> {
+  getData(): Promise<object[]> {
     return Promise.resolve(form);
   }
 
