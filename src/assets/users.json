@@ -1,0 +1,22 @@
+ {
+"usersInfo": [
+  {
+    "firstName": "fName0",
+    "lastName": "lName0",
+    "username": "uName0",
+    "password": "pwd0"
+  },
+  {
+    "firstName": "fName1",
+    "lastName": "lName1",
+    "username": "uName1",
+    "password": "pwd1"
+  },
+  {
+    "firstName": "fName2",
+    "lastName": "lName2",
+    "username": "uName2",
+    "password": "pwd2"
+  }
+]
+}
