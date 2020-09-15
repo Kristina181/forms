@@ -1,0 +1,9 @@
+<form>
+  <div  *ngFor="let object of formInfo">
+  <label>
+    {{object.label}}
+    <input [type]="object.type" [name]="object.name">
+  </label>
+  </div>
+</form>
+<pre>{{formInfo | json}}</pre>
