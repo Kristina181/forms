@@ -17,7 +17,6 @@ export class ApiService {
   constructor(private http: HttpClient) { }
 
   getData(): Observable<object> {
-    console.log(this.apiRoot, this.token);
     return this.subject
       .pipe(
       debounceTime(3000),
